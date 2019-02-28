@@ -1,0 +1,73 @@
+* {
+font-family: futura;
+margin: 0
+
+}
+
+h1 {
+  margin-bottom: 0vh
+}
+
+#nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40vh;
+
+
+}
+
+nav {
+
+  position: fixed;
+
+}
+
+h2 {
+  margin-bottom: 10vhs
+}
+
+section {
+  margin-bottom: 50vh
+}
+
+header, main, footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none
+
+}
+
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+a {
+  color: black;
+  border-color: white;
+}
+
+a:hover {
+  color: red
+}
+
+img {
+  width: 30vw;
+}
+
+.scrolling-box {
+  display: block;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  width: 100vw;
+}
